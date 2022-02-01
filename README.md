@@ -38,7 +38,7 @@ This project will be a shape based memory game. Each shape will have a different
 - How to play, an icon that tells the user the rules and how to play the game. 
 
 #### Game Mode Ideas:
-- Three Lives Matching Gamemode.
+- Three Lives Matching Pairs Gamemode.
 - Timed Matching Pairs Gamemode.
     - Timed gamemode: There is a time limit at the top of the screen and 8 cards flipped down on the screen. The user has to match and complete a pair of cards/shapes in a curtain duration of time. The user will start off with X minutes… Once all the cards on the screen have been paired together, the user will be rewarded with X seconds onto their existing timer and +1 to their score. Then, the game will generate 8 random new sequence of cards on screen and the game will continue. Once the timer runs out, the total number of the user’s score will be displayed on screen and added to the leader board
 - Endless Matching Pairs Gamemode
