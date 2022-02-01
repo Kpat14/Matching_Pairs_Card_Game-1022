@@ -1,4 +1,4 @@
-# Matching Pairs Game 🃏
+# Matching Pairs Card Game 🃏
 
 ### Name of the Team: J.A.K.R
 
