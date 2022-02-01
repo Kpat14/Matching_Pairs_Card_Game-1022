@@ -49,3 +49,8 @@ This project will be a shape based memory game. Each shape will have a different
 ### Lo-Fi Wireframe Design
 
 TBD...
+
+---
+
+### Project Instructions
+https://www.eecs.yorku.ca/course_archive/2021-22/W/1022/ProjectInstructions.pdf
