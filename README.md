@@ -14,10 +14,10 @@ This project will be a shape based memory game. Each shape will have a different
 
 | Name | Section | Term | Lab# | Email |
 | ---- | ---- | ---- | ---- | ---- |
-| Amneet Singh | M | W | 01 | amneet06@my.yorku.ca |
+| Talvin Tawiah | M | W | 01 | amneet06@my.yorku.ca |
 | Ravi Trivedi | M | W | 04 | ravit21@my.yorku.ca |
 | Kakshil Patel | M | W | 03 | patelkak@my.yorku.ca |
-| Jacob McDonald | N | W | 03 | jacob629@my.yorku.ca |
+
 
 ---
 
