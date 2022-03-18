@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=""
     tools:context=".MainActivity">
 
     <Button
@@ -68,23 +67,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Cardrush" />
+        app:srcCompat="@drawable/cardrush" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="178dp"
         android:layout_height="179dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/b" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="179dp"
         android:layout_height="182dp"
-        app:srcCompat="@drawable/c"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="550dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/c" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
