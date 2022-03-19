@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CardRush">
         <activity
+            android:name=".Maingame"
+            android:exported="false" />
+        <activity
             android:name=".game"
             android:exported="false" />
         <activity
