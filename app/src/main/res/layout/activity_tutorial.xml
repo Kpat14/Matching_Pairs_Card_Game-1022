@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorial">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="@string/back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:strokeWidth="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="20dp"
+            android:text="@string/n_game_mode_endless_n_n_to_start_enter_a_user_name_then_press_the_enter_button_in_the_endless_game_mode_match_as_many_pairs_of_cards_as_possible_the_array_of_cards_displayed_can_be_flipped_by_selecting_a_face_down_then_clicking_it_matching_a_pair_will_award_you_with_points_an_incorrect_match_will_award_no_points_and_the_subsequent_cards_will_be_returned_to_their_face_down_position_once_all_cards_in_an_array_are_matched_you_will_move_on_to_the_next_stage_repeat_this_process_until_you_wish_to_end_the_game_and_receive_a_grand_total_for_your_points_to_end_the_game_simply_press_the_end_button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
