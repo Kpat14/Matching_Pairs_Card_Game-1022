@@ -484,7 +484,6 @@
         android:layout_marginLeft="24dp"
         android:gravity="center"
         android:text="Time:"
-        android:background="@drawable/unknown"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toTopOf="@+id/imageButton57"
         app:layout_constraintStart_toStartOf="parent"
@@ -497,7 +496,6 @@
         android:layout_height="75dp"
         android:gravity="center"
         android:text="Points:"
-        android:background="@drawable/unknown"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toTopOf="@+id/imageButton61"
         app:layout_constraintEnd_toEndOf="parent"
@@ -512,8 +510,20 @@
         android:layout_height="120dp"
         android:gravity="center"
         android:text="Describable text: ex) Great!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="575dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton63" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="END"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeWidth="5dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
