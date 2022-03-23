@@ -27,20 +27,29 @@ public class game extends AppCompatActivity {
         });
 
         int[][] setup = new int[5][6];
-
         for(int i=0;i<setup.length;i++){
             for(int j=0;j<setup[0].length;j++){
-                setup[i][j] = (int)(Math.random()*8+1);
+                setup[i][j] = (int)(Math.random()*3+1);
             }
         }
 
         ImageButton button = (ImageButton) findViewById(R.id.TrialButton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                button.setBackgroundResource(R.drawable.icon);
+                if(setup[0][0] == 1){
+                    button.setBackgroundResource(R.drawable.mark);
+                }else if(setup[0][0] == 2){
+                    button.setBackgroundResource(R.drawable.b);
+                }else if(setup[0][0] == 3){
+                    button.setBackgroundResource(R.drawable.c);
+                }else if(setup[0][0] == 4){
+                    button.setBackgroundResource(R.drawable.joker1);
+                }else{
+                    button.setBackgroundResource(R.drawable.icon);
+                }
+
             }
         });
-
 
 
 
