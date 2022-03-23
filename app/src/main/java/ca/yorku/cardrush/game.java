@@ -14,8 +14,11 @@ public class game extends AppCompatActivity {
     //Variable to count cardFlips
     int cardFlip=0;
     int[] compare = new int[2];
+    int[] storeCount = new int[2];
     int count=0;
     int score=0;
+    int ReturnedButton1=0;
+    int ReturnedButton2=0;
 
 
     void makeCompare(int a, int b, int[][] setup){
@@ -38,42 +41,191 @@ public class game extends AppCompatActivity {
 
     //Function to reset pictures back to default image
     void flipDown(){
-        ImageButton button = (ImageButton) findViewById(R.id.Button1);
-        button.setBackgroundResource(R.drawable.joker1);
-        ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
-        button2.setBackgroundResource(R.drawable.joker1);
-
+        if(ReturnedButton1 == 1){
+            ImageButton button = (ImageButton) findViewById(R.id.Button1);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 2){
+            ImageButton button = (ImageButton) findViewById(R.id.Button2);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 3){
+            ImageButton button = (ImageButton) findViewById(R.id.Button3);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 4){
+            ImageButton button = (ImageButton) findViewById(R.id.Button4);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 5){
+            ImageButton button = (ImageButton) findViewById(R.id.Button5);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 6){
+            ImageButton button = (ImageButton) findViewById(R.id.Button6);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 7){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 8){
+            ImageButton button = (ImageButton) findViewById(R.id.Button8);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 9){
+            ImageButton button = (ImageButton) findViewById(R.id.Button9);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 10){
+            ImageButton button = (ImageButton) findViewById(R.id.Button10);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+       if(ReturnedButton2 == 1) {
+           ImageButton button2 = (ImageButton) findViewById(R.id.Button1);
+           button2.setBackgroundResource(R.drawable.joker1);
+       }
+        if(ReturnedButton2 == 2){
+            ImageButton button = (ImageButton) findViewById(R.id.Button2);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton2 == 3){
+            ImageButton button = (ImageButton) findViewById(R.id.Button3);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton2 == 4){
+            ImageButton button = (ImageButton) findViewById(R.id.Button4);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton2 == 5){
+            ImageButton button = (ImageButton) findViewById(R.id.Button5);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton2 == 6){
+            ImageButton button = (ImageButton) findViewById(R.id.Button6);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton2 == 7){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton2 == 8){
+            ImageButton button = (ImageButton) findViewById(R.id.Button8);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 9){
+            ImageButton button = (ImageButton) findViewById(R.id.Button9);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
+        if(ReturnedButton1 == 10){
+            ImageButton button = (ImageButton) findViewById(R.id.Button10);
+            button.setBackgroundResource(R.drawable.joker1);
+        }
     }
     void remove(){
-        ImageButton button = (ImageButton) findViewById(R.id.Button1);
-        button.setVisibility(View.GONE);
-        ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
-        button2.setVisibility(View.GONE);
+        if(ReturnedButton1==1){
+            ImageButton button = (ImageButton) findViewById(R.id.Button1);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton1==2){
+            ImageButton button = (ImageButton) findViewById(R.id.Button2);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton1==3){
+            ImageButton button = (ImageButton) findViewById(R.id.Button3);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton1==4){
+            ImageButton button = (ImageButton) findViewById(R.id.Button4);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton1==5){
+            ImageButton button = (ImageButton) findViewById(R.id.Button5);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton1==6){
+            ImageButton button = (ImageButton) findViewById(R.id.Button6);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton1==7){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton1==8){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton1==9){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton1==10){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setVisibility(View.GONE);
+        }
+
+        if(ReturnedButton2==1){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button1);
+            button2.setVisibility(View.GONE);
+        }
+       if(ReturnedButton2==2){
+           ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
+           button2.setVisibility(View.GONE);
+       }
+        if(ReturnedButton2==3){
+            ImageButton button = (ImageButton) findViewById(R.id.Button3);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton2==4){
+            ImageButton button = (ImageButton) findViewById(R.id.Button4);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton2==5){
+            ImageButton button = (ImageButton) findViewById(R.id.Button5);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton2==6){
+            ImageButton button = (ImageButton) findViewById(R.id.Button6);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton2==7){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton2==8){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton2==9){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setVisibility(View.GONE);
+        }
+        if(ReturnedButton2==10){
+            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            button.setVisibility(View.GONE);
+        }
     }
     //Function that increases cardFlip by 1, if cardFlip is at two should flip both cards down.
-    void flip(){
+    void flip(int count){
         cardFlip++;
+        if(cardFlip == 1){
+            storeCount[0] = count;
+        }else{
+            storeCount[1] = count;
+        }
         if(cardFlip==2){
+            ReturnedButton1 = storeCount[0];
+            ReturnedButton2=storeCount[1];
             if(compare[0]==compare[1]){
-                //(new Handler()).postDelayed(this::remove, 3000);
-                try {
-                    wait(3000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                remove();
+                (new Handler()).postDelayed(this:: remove,3000);
                 score();
             }
         }
         if(cardFlip==2 && compare[0]!=compare[1]){
+            ReturnedButton1 = storeCount[0];
+            ReturnedButton2=storeCount[1];
             cardFlip=0;
-            //(new Handler()).postDelayed(this::flipDown, 3000);
-            try {
-                wait(3000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            flipDown();
+            (new Handler()).postDelayed(this::flipDown, 3000);
         }
     }
     @Override
@@ -90,6 +242,8 @@ public class game extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
         //setups up matrix that can hold 30 elements
         int[][] setup = new int[5][6];
         for(int i=0;i<setup.length;i++){
@@ -99,7 +253,6 @@ public class game extends AppCompatActivity {
         }
 
         // SETTING UP THE BUTTONS
-
         ImageButton button = (ImageButton) findViewById(R.id.Button1);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -118,7 +271,7 @@ public class game extends AppCompatActivity {
                 }else{
                     button.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+                flip(ButtonNumber);
             }
         });
 
@@ -129,7 +282,7 @@ public class game extends AppCompatActivity {
                 int a=0;
                 int b=1;
                 int ButtonNumber=2;
-                makeCompare(a,b,setup);
+               makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
                     button2.setBackgroundResource(R.drawable.mark);
                 }else if(setup[a][b] == 2){
@@ -141,13 +294,13 @@ public class game extends AppCompatActivity {
                 }else{
                     button2.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+               flip(ButtonNumber);
             }
         });
 
 
         ImageButton button3 = (ImageButton) findViewById(R.id.Button3);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int a=0;
@@ -165,13 +318,13 @@ public class game extends AppCompatActivity {
                 }else{
                     button3.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+               flip(ButtonNumber);
             }
         });
 
 
         ImageButton button4 = (ImageButton) findViewById(R.id.Button4);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int a=0;
@@ -189,12 +342,12 @@ public class game extends AppCompatActivity {
                 }else{
                     button4.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+               flip(ButtonNumber);
             }
         });
 
         ImageButton button5 = (ImageButton) findViewById(R.id.Button5);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int a=0;
@@ -212,12 +365,12 @@ public class game extends AppCompatActivity {
                 }else{
                     button5.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+             flip(ButtonNumber);
             }
         });
 
         ImageButton button6 = (ImageButton) findViewById(R.id.Button6);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int a=1;
@@ -235,12 +388,12 @@ public class game extends AppCompatActivity {
                 }else{
                     button6.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+               flip(ButtonNumber);
             }
         });
 
         ImageButton button7 = (ImageButton) findViewById(R.id.Button7);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int a=1;
@@ -258,12 +411,12 @@ public class game extends AppCompatActivity {
                 }else{
                     button7.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+               flip(ButtonNumber);
             }
         });
 
         ImageButton button8 = (ImageButton) findViewById(R.id.Button8);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int a=1;
@@ -281,12 +434,12 @@ public class game extends AppCompatActivity {
                 }else{
                     button8.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+               flip(ButtonNumber);
             }
         });
 
         ImageButton button9 = (ImageButton) findViewById(R.id.Button9);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int a=1;
@@ -304,12 +457,12 @@ public class game extends AppCompatActivity {
                 }else{
                     button9.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+                flip(ButtonNumber);
             }
         });
 
         ImageButton button10 = (ImageButton) findViewById(R.id.Button10);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int a=1;
@@ -327,7 +480,7 @@ public class game extends AppCompatActivity {
                 }else{
                     button10.setBackgroundResource(R.drawable.icon);
                 }
-                flip();
+                flip(ButtonNumber);
             }
         });
 
