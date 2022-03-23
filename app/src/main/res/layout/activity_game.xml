@@ -7,7 +7,7 @@
     tools:context=".game">
 
     <ImageButton
-        android:id="@+id/imageButton58"
+        android:id="@+id/Button3"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.243"/>
 
     <ImageButton
-        android:id="@+id/imageButton45"
+        android:id="@+id/Button19"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.603"/>
 
     <ImageButton
-        android:id="@+id/imageButton33"
+        android:id="@+id/Button7"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.362" />
 
     <ImageButton
-        android:id="@+id/imageButton38"
+        android:id="@+id/Button12"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="0.362"/>
 
     <ImageButton
-        android:id="@+id/TrialButton2"
+        android:id="@+id/Button2"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -73,7 +73,7 @@
         />
 
     <ImageButton
-        android:id="@+id/imageButton60"
+        android:id="@+id/Button5"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="0.243" />
 
     <ImageButton
-        android:id="@+id/imageButton65"
+        android:id="@+id/Button30"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -99,7 +99,7 @@
         app:layout_constraintVertical_bias="0.722"/>
 
     <ImageButton
-        android:id="@+id/imageButton59"
+        android:id="@+id/Button4"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -112,7 +112,7 @@
         android:background="@drawable/joker1"/>
 
     <ImageButton
-        android:id="@+id/imageButton46"
+        android:id="@+id/Button21"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -125,7 +125,7 @@
         app:layout_constraintVertical_bias="0.603"/>
 
     <ImageButton
-        android:id="@+id/imageButton67"
+        android:id="@+id/Button28"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -138,7 +138,7 @@
         app:layout_constraintVertical_bias="0.722"/>
 
     <ImageButton
-        android:id="@+id/imageButton64"
+        android:id="@+id/Button25"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -151,7 +151,7 @@
         app:layout_constraintVertical_bias="0.722"/>
 
     <ImageButton
-        android:id="@+id/imageButton50"
+        android:id="@+id/Button20"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -164,7 +164,7 @@
         app:layout_constraintVertical_bias="0.603"/>
 
     <ImageButton
-        android:id="@+id/imageButton68"
+        android:id="@+id/Button29"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -177,20 +177,7 @@
         app:layout_constraintVertical_bias="0.722"/>
 
     <ImageButton
-        android:id="@+id/imageButton43"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.991"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"
-        app:srcCompat="@drawable/joker1" />
-
-    <ImageButton
-        android:id="@+id/imageButton34"
+        android:id="@+id/Button8"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -203,20 +190,7 @@
         app:layout_constraintVertical_bias="0.362" />
 
     <ImageButton
-        android:id="@+id/imageButton56"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.212"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"/>
-
-    <ImageButton
-        android:id="@+id/imageButton55"
+        android:id="@+id/Button18"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -229,20 +203,7 @@
         app:layout_constraintVertical_bias="0.483"/>
 
     <ImageButton
-        android:id="@+id/imageButton41"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"
-        app:srcCompat="@drawable/unknown" />
-
-    <ImageButton
-        android:id="@+id/TrialButton"
+        android:id="@+id/Button1"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -256,7 +217,7 @@
         />
 
     <ImageButton
-        android:id="@+id/imageButton36"
+        android:id="@+id/Button10"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -269,7 +230,7 @@
         app:layout_constraintVertical_bias="0.362"/>
 
     <ImageButton
-        android:id="@+id/imageButton66"
+        android:id="@+id/Button26"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -282,7 +243,7 @@
         app:layout_constraintVertical_bias="0.722"/>
 
     <ImageButton
-        android:id="@+id/imageButton37"
+        android:id="@+id/Button11"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -295,7 +256,7 @@
         app:layout_constraintVertical_bias="0.362"/>
 
     <ImageButton
-        android:id="@+id/imageButton49"
+        android:id="@+id/Button24"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -308,33 +269,20 @@
         app:layout_constraintVertical_bias="0.603"/>
 
     <ImageButton
-        android:id="@+id/imageButton51"
+        android:id="@+id/Button13"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"
-        app:srcCompat="@drawable/unknown" />
-
-    <ImageButton
-        android:id="@+id/imageButton39"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/unknown"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"/>
+        app:layout_constraintVertical_bias="0.482" />
 
     <ImageButton
-        android:id="@+id/imageButton61"
+        android:id="@+id/Button6"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -347,7 +295,7 @@
         app:layout_constraintVertical_bias="0.243" />
 
     <ImageButton
-        android:id="@+id/imageButton54"
+        android:id="@+id/Button17"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -360,20 +308,7 @@
         app:layout_constraintVertical_bias="0.483"/>
 
     <ImageButton
-        android:id="@+id/imageButton42"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/unknown"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"/>
-
-    <ImageButton
-        android:id="@+id/imageButton47"
+        android:id="@+id/Button22"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -386,7 +321,7 @@
         app:layout_constraintVertical_bias="0.603"/>
 
     <ImageButton
-        android:id="@+id/imageButton48"
+        android:id="@+id/Button23"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:background="@drawable/joker1"
@@ -399,7 +334,7 @@
         app:layout_constraintVertical_bias="0.603" />
 
     <ImageButton
-        android:id="@+id/imageButton63"
+        android:id="@+id/Button27"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -412,7 +347,7 @@
         app:layout_constraintVertical_bias="0.722"/>
 
     <ImageButton
-        android:id="@+id/imageButton35"
+        android:id="@+id/Button9"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -425,20 +360,7 @@
         app:layout_constraintVertical_bias="0.362"/>
 
     <ImageButton
-        android:id="@+id/imageButton40"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"
-        app:srcCompat="@drawable/unknown" />
-
-    <ImageButton
-        android:id="@+id/imageButton44"
+        android:id="@+id/Button14"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -451,7 +373,7 @@
         app:layout_constraintVertical_bias="0.483"/>
 
     <ImageButton
-        android:id="@+id/imageButton53"
+        android:id="@+id/Button16"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -464,7 +386,7 @@
         app:layout_constraintVertical_bias="0.483"/>
 
     <ImageButton
-        android:id="@+id/imageButton52"
+        android:id="@+id/Button15"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:scaleType="fitXY"
@@ -485,7 +407,7 @@
         android:gravity="center"
         android:text="Time:"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/TrialButton"
+        app:layout_constraintBottom_toTopOf="@+id/Button1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.488" />
@@ -497,7 +419,7 @@
         android:gravity="center"
         android:text="Points:"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton61"
+        app:layout_constraintBottom_toTopOf="@+id/Button6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toEndOf="@+id/textView3"
@@ -514,7 +436,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton63" />
+        app:layout_constraintTop_toBottomOf="@+id/Button27" />
 
     <Button
         android:id="@+id/button7"

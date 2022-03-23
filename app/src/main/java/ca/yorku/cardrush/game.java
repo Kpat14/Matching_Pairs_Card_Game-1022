@@ -17,16 +17,16 @@ public class game extends AppCompatActivity {
 
     //Function to reset pictures back to default image
     void flipDown(){
-        ImageButton button = (ImageButton) findViewById(R.id.TrialButton);
+        ImageButton button = (ImageButton) findViewById(R.id.Button1);
         button.setBackgroundResource(R.drawable.joker1);
-        ImageButton button2 = (ImageButton) findViewById(R.id.TrialButton2);
+        ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
         button2.setBackgroundResource(R.drawable.joker1);
 
     }
     void remove(){
-        ImageButton button = (ImageButton) findViewById(R.id.TrialButton);
+        ImageButton button = (ImageButton) findViewById(R.id.Button1);
         button.setVisibility(View.GONE);
-        ImageButton button2 = (ImageButton) findViewById(R.id.TrialButton2);
+        ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
         button2.setVisibility(View.GONE);
     }
     //Function that increases cardFlip by 1, if cardFlip is at two should flip both cards down.
@@ -64,7 +64,7 @@ public class game extends AppCompatActivity {
             }
         }
 
-        ImageButton button = (ImageButton) findViewById(R.id.TrialButton);
+        ImageButton button = (ImageButton) findViewById(R.id.Button1);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 compare[0]=setup[0][0];
@@ -83,7 +83,7 @@ public class game extends AppCompatActivity {
             }
         });
 
-        ImageButton button2 = (ImageButton) findViewById(R.id.TrialButton2);
+        ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
