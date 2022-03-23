@@ -10,14 +10,15 @@
         android:id="@+id/Button3"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243"/>
+        app:layout_constraintVertical_bias="0.243"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/Button19"
