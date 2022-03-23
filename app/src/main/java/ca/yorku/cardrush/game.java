@@ -37,7 +37,7 @@ public class game extends AppCompatActivity {
         ImageButton button = (ImageButton) findViewById(R.id.TrialButton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                button.setImageResource(R.drawable.icon);
+                button.setBackgroundResource(R.drawable.icon);
             }
         });
 
