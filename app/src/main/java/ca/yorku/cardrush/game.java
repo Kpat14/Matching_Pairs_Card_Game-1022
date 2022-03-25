@@ -22,14 +22,15 @@ public class game extends AppCompatActivity {
 
 
     void makeCompare(int a, int b, int[][] setup){
-        if(count==0){
+        count++;
+        if(count==1){
             compare[0] = setup[a][b];
         }
-        if(count==1){
+        if(count==2){
             compare[1] = setup[a][b];
             count=0;
         }
-        count++;
+
     }
 
     void score(){
@@ -41,6 +42,8 @@ public class game extends AppCompatActivity {
 
     //Function to reset pictures back to default image
     void flipDown(){
+        compare[0]=0;
+        compare[1]=0;
         if(ReturnedButton1 == 1){
             ImageButton button = (ImageButton) findViewById(R.id.Button1);
             button.setBackgroundResource(R.drawable.joker1);
@@ -123,6 +126,8 @@ public class game extends AppCompatActivity {
         }
     }
     void remove(){
+        compare[0]=0;
+        compare[1]=0;
         if(ReturnedButton1==1){
             ImageButton button = (ImageButton) findViewById(R.id.Button1);
             button.setVisibility(View.GONE);
@@ -152,15 +157,15 @@ public class game extends AppCompatActivity {
             button.setVisibility(View.GONE);
         }
         if(ReturnedButton1==8){
-            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            ImageButton button = (ImageButton) findViewById(R.id.Button8);
             button.setVisibility(View.GONE);
         }
         if(ReturnedButton1==9){
-            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            ImageButton button = (ImageButton) findViewById(R.id.Button9);
             button.setVisibility(View.GONE);
         }
         if(ReturnedButton1==10){
-            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            ImageButton button = (ImageButton) findViewById(R.id.Button10);
             button.setVisibility(View.GONE);
         }
 
@@ -193,15 +198,15 @@ public class game extends AppCompatActivity {
             button.setVisibility(View.GONE);
         }
         if(ReturnedButton2==8){
-            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            ImageButton button = (ImageButton) findViewById(R.id.Button8);
             button.setVisibility(View.GONE);
         }
         if(ReturnedButton2==9){
-            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            ImageButton button = (ImageButton) findViewById(R.id.Button9);
             button.setVisibility(View.GONE);
         }
         if(ReturnedButton2==10){
-            ImageButton button = (ImageButton) findViewById(R.id.Button7);
+            ImageButton button = (ImageButton) findViewById(R.id.Button10);
             button.setVisibility(View.GONE);
         }
     }
@@ -215,18 +220,18 @@ public class game extends AppCompatActivity {
         }
         if(cardFlip==2){
             ReturnedButton1 = storeCount[0];
-            ReturnedButton2=storeCount[1];
+            ReturnedButton2=  storeCount[1];
             if(compare[0]==compare[1]){
                 (new Handler()).postDelayed(this:: remove,3000);
                 score();
+            }else if (compare[0]!=compare[1]){
+                ReturnedButton1 = storeCount[0];
+                ReturnedButton2=storeCount[1];
+                (new Handler()).postDelayed(this::flipDown, 3000);
             }
-        }
-        if(cardFlip==2 && compare[0]!=compare[1]){
-            ReturnedButton1 = storeCount[0];
-            ReturnedButton2=storeCount[1];
             cardFlip=0;
-            (new Handler()).postDelayed(this::flipDown, 3000);
         }
+
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
