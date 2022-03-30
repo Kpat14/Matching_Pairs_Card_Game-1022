@@ -284,35 +284,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=1;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button.setBackgroundResource(R.drawable.pentagon);
+                    button.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button.setBackgroundResource(R.drawable.oval);
+                    button.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button.setBackgroundResource(R.drawable.bluetriangle);
+                    button.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button.setBackgroundResource(R.drawable.purplesquare);
+                    button.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button.setBackgroundResource(R.drawable.star);
+                    button.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button.setBackgroundResource(R.drawable.heart);
+                    button.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button.setBackgroundResource(R.drawable.diamond);
+                    button.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button.setBackgroundResource(R.drawable.star);
+                    button.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button.setBackgroundResource(R.drawable.trapazoid);
+                    button.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button.setBackgroundResource(R.drawable.clover);
+                    button.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button.setBackgroundResource(R.drawable.reddiamond);
+                    button.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button.setBackgroundResource(R.drawable.cone);
+                    button.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button.setBackgroundResource(R.drawable.cube);
+                    button.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button.setBackgroundResource(R.drawable.ring);
+                    button.setBackgroundResource(R.drawable.triangle);
                 }
                 flip(ButtonNumber);
             }
@@ -327,35 +327,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=2;
                makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button2.setBackgroundResource(R.drawable.pentagon);
+                    button2.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button2.setBackgroundResource(R.drawable.oval);
+                    button2.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button2.setBackgroundResource(R.drawable.bluetriangle);
+                    button2.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button2.setBackgroundResource(R.drawable.purplesquare);
+                    button2.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button2.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button2.setBackgroundResource(R.drawable.star);
+                    button2.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button2.setBackgroundResource(R.drawable.heart);
+                    button2.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button2.setBackgroundResource(R.drawable.diamond);
+                    button2.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button2.setBackgroundResource(R.drawable.star);
+                    button2.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button2.setBackgroundResource(R.drawable.trapazoid);
+                    button2.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button2.setBackgroundResource(R.drawable.clover);
+                    button2.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button2.setBackgroundResource(R.drawable.reddiamond);
+                    button2.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button2.setBackgroundResource(R.drawable.cone);
+                    button2.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button2.setBackgroundResource(R.drawable.cube);
+                    button2.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button2.setBackgroundResource(R.drawable.ring);
+                    button2.setBackgroundResource(R.drawable.triangle);
                 }
                flip(ButtonNumber);
             }
@@ -371,35 +371,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=3;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button3.setBackgroundResource(R.drawable.pentagon);
+                    button3.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button3.setBackgroundResource(R.drawable.oval);
+                    button3.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button3.setBackgroundResource(R.drawable.bluetriangle);
+                    button3.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button3.setBackgroundResource(R.drawable.purplesquare);
+                    button3.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button3.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button3.setBackgroundResource(R.drawable.star);
+                    button3.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button3.setBackgroundResource(R.drawable.heart);
+                    button3.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button3.setBackgroundResource(R.drawable.diamond);
+                    button3.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button3.setBackgroundResource(R.drawable.star);
+                    button3.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button3.setBackgroundResource(R.drawable.trapazoid);
+                    button3.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button3.setBackgroundResource(R.drawable.clover);
+                    button3.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button3.setBackgroundResource(R.drawable.reddiamond);
+                    button3.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button3.setBackgroundResource(R.drawable.cone);
+                    button3.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button3.setBackgroundResource(R.drawable.cube);
+                    button3.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button3.setBackgroundResource(R.drawable.ring);
+                    button3.setBackgroundResource(R.drawable.triangle);
                 }
                flip(ButtonNumber);
             }
@@ -415,35 +415,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=4;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button4.setBackgroundResource(R.drawable.pentagon);
+                    button4.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button4.setBackgroundResource(R.drawable.oval);
+                    button4.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button4.setBackgroundResource(R.drawable.bluetriangle);
+                    button4.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button4.setBackgroundResource(R.drawable.purplesquare);
+                    button4.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button4.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button4.setBackgroundResource(R.drawable.star);
+                    button4.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button4.setBackgroundResource(R.drawable.heart);
+                    button4.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button4.setBackgroundResource(R.drawable.diamond);
+                    button4.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button4.setBackgroundResource(R.drawable.star);
+                    button4.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button4.setBackgroundResource(R.drawable.trapazoid);
+                    button4.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button4.setBackgroundResource(R.drawable.clover);
+                    button4.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button4.setBackgroundResource(R.drawable.reddiamond);
+                    button4.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button4.setBackgroundResource(R.drawable.cone);
+                    button4.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button4.setBackgroundResource(R.drawable.cube);
+                    button4.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button4.setBackgroundResource(R.drawable.ring);
+                    button4.setBackgroundResource(R.drawable.triangle);
                 }
                flip(ButtonNumber);
             }
@@ -458,35 +458,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=5;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button5.setBackgroundResource(R.drawable.pentagon);
+                    button5.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button5.setBackgroundResource(R.drawable.oval);
+                    button5.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button5.setBackgroundResource(R.drawable.bluetriangle);
+                    button5.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button5.setBackgroundResource(R.drawable.purplesquare);
+                    button5.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button5.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button5.setBackgroundResource(R.drawable.star);
+                    button5.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button5.setBackgroundResource(R.drawable.heart);
+                    button5.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button5.setBackgroundResource(R.drawable.diamond);
+                    button5.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button5.setBackgroundResource(R.drawable.star);
+                    button5.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button5.setBackgroundResource(R.drawable.trapazoid);
+                    button5.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button5.setBackgroundResource(R.drawable.clover);
+                    button5.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button5.setBackgroundResource(R.drawable.reddiamond);
+                    button5.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button5.setBackgroundResource(R.drawable.cone);
+                    button5.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button5.setBackgroundResource(R.drawable.cube);
+                    button5.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button5.setBackgroundResource(R.drawable.ring);
+                    button5.setBackgroundResource(R.drawable.triangle);
                 }
              flip(ButtonNumber);
             }
@@ -501,35 +501,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=6;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button6.setBackgroundResource(R.drawable.pentagon);
+                    button6.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button6.setBackgroundResource(R.drawable.oval);
+                    button6.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button6.setBackgroundResource(R.drawable.bluetriangle);
+                    button6.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button6.setBackgroundResource(R.drawable.purplesquare);
+                    button6.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button6.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button6.setBackgroundResource(R.drawable.star);
+                    button6.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button6.setBackgroundResource(R.drawable.heart);
+                    button6.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button6.setBackgroundResource(R.drawable.diamond);
+                    button6.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button6.setBackgroundResource(R.drawable.star);
+                    button6.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button6.setBackgroundResource(R.drawable.trapazoid);
+                    button6.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button6.setBackgroundResource(R.drawable.clover);
+                    button6.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button6.setBackgroundResource(R.drawable.reddiamond);
+                    button6.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button6.setBackgroundResource(R.drawable.cone);
+                    button6.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button6.setBackgroundResource(R.drawable.cube);
+                    button6.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button6.setBackgroundResource(R.drawable.ring);
+                    button6.setBackgroundResource(R.drawable.triangle);
                 }
                flip(ButtonNumber);
             }
@@ -544,35 +544,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=7;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button7.setBackgroundResource(R.drawable.pentagon);
+                    button7.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button7.setBackgroundResource(R.drawable.oval);
+                    button7.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button7.setBackgroundResource(R.drawable.bluetriangle);
+                    button7.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button7.setBackgroundResource(R.drawable.purplesquare);
+                    button7.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button7.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button7.setBackgroundResource(R.drawable.star);
+                    button7.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button7.setBackgroundResource(R.drawable.heart);
+                    button7.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button7.setBackgroundResource(R.drawable.diamond);
+                    button7.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button7.setBackgroundResource(R.drawable.star);
+                    button7.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button7.setBackgroundResource(R.drawable.trapazoid);
+                    button7.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button7.setBackgroundResource(R.drawable.clover);
+                    button7.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button7.setBackgroundResource(R.drawable.reddiamond);
+                    button7.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button7.setBackgroundResource(R.drawable.cone);
+                    button7.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button7.setBackgroundResource(R.drawable.cube);
+                    button7.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button7.setBackgroundResource(R.drawable.ring);
+                    button7.setBackgroundResource(R.drawable.triangle);
                 }
                flip(ButtonNumber);
             }
@@ -587,35 +587,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=8;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button8.setBackgroundResource(R.drawable.pentagon);
+                    button8.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button8.setBackgroundResource(R.drawable.oval);
+                    button8.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button8.setBackgroundResource(R.drawable.bluetriangle);
+                    button8.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button8.setBackgroundResource(R.drawable.purplesquare);
+                    button8.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button8.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button8.setBackgroundResource(R.drawable.star);
+                    button8.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button8.setBackgroundResource(R.drawable.heart);
+                    button8.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button8.setBackgroundResource(R.drawable.diamond);
+                    button8.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button8.setBackgroundResource(R.drawable.star);
+                    button8.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button8.setBackgroundResource(R.drawable.trapazoid);
+                    button8.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button8.setBackgroundResource(R.drawable.clover);
+                    button8.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button8.setBackgroundResource(R.drawable.reddiamond);
+                    button8.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button8.setBackgroundResource(R.drawable.cone);
+                    button8.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button8.setBackgroundResource(R.drawable.cube);
+                    button8.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button8.setBackgroundResource(R.drawable.ring);
+                    button8.setBackgroundResource(R.drawable.triangle);
                 }
                flip(ButtonNumber);
             }
@@ -630,35 +630,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=9;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button9.setBackgroundResource(R.drawable.pentagon);
+                    button9.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button9.setBackgroundResource(R.drawable.oval);
+                    button9.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button9.setBackgroundResource(R.drawable.bluetriangle);
+                    button9.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button9.setBackgroundResource(R.drawable.purplesquare);
+                    button9.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button9.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button9.setBackgroundResource(R.drawable.star);
+                    button9.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button9.setBackgroundResource(R.drawable.heart);
+                    button9.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button9.setBackgroundResource(R.drawable.diamond);
+                    button9.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button9.setBackgroundResource(R.drawable.star);
+                    button9.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button9.setBackgroundResource(R.drawable.trapazoid);
+                    button9.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button9.setBackgroundResource(R.drawable.clover);
+                    button9.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button9.setBackgroundResource(R.drawable.reddiamond);
+                    button9.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button9.setBackgroundResource(R.drawable.cone);
+                    button9.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button9.setBackgroundResource(R.drawable.cube);
+                    button9.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button.setBackgroundResource(R.drawable.ring);
+                    button9.setBackgroundResource(R.drawable.triangle);
                 }
                 flip(ButtonNumber);
             }
@@ -673,35 +673,35 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=10;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button10.setBackgroundResource(R.drawable.pentagon);
+                    button10.setBackgroundResource(R.drawable.circle);
                 }else if(setup[a][b] == 2){
-                    button10.setBackgroundResource(R.drawable.oval);
+                    button10.setBackgroundResource(R.drawable.clovers);
                 }else if(setup[a][b] == 3){
-                    button10.setBackgroundResource(R.drawable.bluetriangle);
+                    button10.setBackgroundResource(R.drawable.diamond);
                 }else if(setup[a][b] == 4){
-                    button10.setBackgroundResource(R.drawable.purplesquare);
+                    button10.setBackgroundResource(R.drawable.heart);
                 }else if(setup[a][b]==5){
                     button10.setBackgroundResource(R.drawable.hexagon);
                 }else if(setup[a][b]==6){
-                    button10.setBackgroundResource(R.drawable.star);
+                    button10.setBackgroundResource(R.drawable.jewel);
                 }else if(setup[a][b]==7){
-                    button10.setBackgroundResource(R.drawable.heart);
+                    button10.setBackgroundResource(R.drawable.octogon);
                 }else if(setup[a][b]==8){
-                    button10.setBackgroundResource(R.drawable.diamond);
+                    button10.setBackgroundResource(R.drawable.oval);
                 }else if(setup[a][b]==9){
-                    button10.setBackgroundResource(R.drawable.star);
+                    button10.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b]==10){
-                    button10.setBackgroundResource(R.drawable.trapazoid);
+                    button10.setBackgroundResource(R.drawable.rectangle);
                 }else if(setup[a][b]==11){
-                    button10.setBackgroundResource(R.drawable.clover);
+                    button10.setBackgroundResource(R.drawable.spades);
                 }else if(setup[a][b]==12){
-                    button10.setBackgroundResource(R.drawable.reddiamond);
+                    button10.setBackgroundResource(R.drawable.square);
                 }else if(setup[a][b]==13){
-                    button10.setBackgroundResource(R.drawable.cone);
+                    button10.setBackgroundResource(R.drawable.star);
                 }else if(setup[a][b]==14){
-                    button10.setBackgroundResource(R.drawable.cube);
+                    button10.setBackgroundResource(R.drawable.trapezoid);
                 }else{
-                    button10.setBackgroundResource(R.drawable.ring);
+                    button10.setBackgroundResource(R.drawable.triangle);
                 }
                 flip(ButtonNumber);
             }
