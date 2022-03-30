@@ -275,7 +275,7 @@ public class game extends AppCompatActivity {
         }
 
 
-        // SETTING UP THE BUTTONS
+        // SETTING UP THE BUTTON S
         ImageButton button = (ImageButton) findViewById(R.id.Button1);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
