@@ -251,12 +251,29 @@ public class game extends AppCompatActivity {
 
 
         //setups up matrix that can hold 30 elements
+        /*
         int[][] setup = new int[5][6];
+
+
         for(int i=0;i<setup.length;i++){
             for(int j=0;j<setup[0].length;j++){
                 setup[i][j] = (int)(Math.random()*3+1);
             }
         }
+
+         */
+        int[][] setup={{1, 2, 3, 4, 5},{6,7,8,9,10},{11,12,13,14,15},{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15}};
+
+        for(int i=0;i<setup.length;i++){
+            for(int j=0;j< setup[i].length;j++){
+                int a1= (int) (Math.random()* setup.length);
+                int b1 = (int)(Math.random()*setup[i].length);
+                int hold = setup[i][j];
+                setup[i][j]=setup[a1][b1];
+                setup[a1][b1]=hold;
+            }
+        }
+
 
         // SETTING UP THE BUTTONS
         ImageButton button = (ImageButton) findViewById(R.id.Button1);
