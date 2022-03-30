@@ -209,6 +209,7 @@ public class game extends AppCompatActivity {
             ImageButton button = (ImageButton) findViewById(R.id.Button10);
             button.setVisibility(View.GONE);
         }
+
     }
     //Function that increases cardFlip by 1, if cardFlip is at two should flip both cards down.
     void flip(int count){
@@ -266,15 +267,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=1;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button.setBackgroundResource(R.drawable.mark);
+                    button.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button.setBackgroundResource(R.drawable.b);
+                    button.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button.setBackgroundResource(R.drawable.c);
+                    button.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button.setBackgroundResource(R.drawable.joker1);
+                    button.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button.setBackgroundResource(R.drawable.icon);
+                    button.setBackgroundResource(R.drawable.Hexagon);
                 }
                 flip(ButtonNumber);
             }
@@ -289,15 +290,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=2;
                makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button2.setBackgroundResource(R.drawable.mark);
+                    button2.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button2.setBackgroundResource(R.drawable.b);
+                    button2.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button2.setBackgroundResource(R.drawable.c);
+                    button2.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button2.setBackgroundResource(R.drawable.joker1);
+                    button2.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button2.setBackgroundResource(R.drawable.icon);
+                    button2.setBackgroundResource(R.drawable.Hexagon);
                 }
                flip(ButtonNumber);
             }
@@ -313,15 +314,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=3;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button3.setBackgroundResource(R.drawable.mark);
+                    button3.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button3.setBackgroundResource(R.drawable.b);
+                    button3.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button3.setBackgroundResource(R.drawable.c);
+                    button3.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button3.setBackgroundResource(R.drawable.joker1);
+                    button3.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button3.setBackgroundResource(R.drawable.icon);
+                    button3.setBackgroundResource(R.drawable.Hexagon);
                 }
                flip(ButtonNumber);
             }
@@ -337,15 +338,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=4;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button4.setBackgroundResource(R.drawable.mark);
+                    button4.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button4.setBackgroundResource(R.drawable.b);
+                    button4.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button4.setBackgroundResource(R.drawable.c);
+                    button4.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button4.setBackgroundResource(R.drawable.joker1);
+                    button4.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button4.setBackgroundResource(R.drawable.icon);
+                    button4.setBackgroundResource(R.drawable.Hexagon);
                 }
                flip(ButtonNumber);
             }
@@ -360,15 +361,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=5;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button5.setBackgroundResource(R.drawable.mark);
+                    button5.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button5.setBackgroundResource(R.drawable.b);
+                    button5.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button5.setBackgroundResource(R.drawable.c);
+                    button5.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button5.setBackgroundResource(R.drawable.joker1);
+                    button5.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button5.setBackgroundResource(R.drawable.icon);
+                    button5.setBackgroundResource(R.drawable.Hexagon);
                 }
              flip(ButtonNumber);
             }
@@ -383,15 +384,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=6;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button6.setBackgroundResource(R.drawable.mark);
+                    button6.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button6.setBackgroundResource(R.drawable.b);
+                    button6.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button6.setBackgroundResource(R.drawable.c);
+                    button6.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button6.setBackgroundResource(R.drawable.joker1);
+                    button6.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button6.setBackgroundResource(R.drawable.icon);
+                    button6.setBackgroundResource(R.drawable.Hexagon);
                 }
                flip(ButtonNumber);
             }
@@ -406,15 +407,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=7;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button7.setBackgroundResource(R.drawable.mark);
+                    button7.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button7.setBackgroundResource(R.drawable.b);
+                    button7.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button7.setBackgroundResource(R.drawable.c);
+                    button7.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button7.setBackgroundResource(R.drawable.joker1);
+                    button7.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button7.setBackgroundResource(R.drawable.icon);
+                    button7.setBackgroundResource(R.drawable.Hexagon);
                 }
                flip(ButtonNumber);
             }
@@ -429,15 +430,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=8;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button8.setBackgroundResource(R.drawable.mark);
+                    button8.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button8.setBackgroundResource(R.drawable.b);
+                    button8.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button8.setBackgroundResource(R.drawable.c);
+                    button8.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button8.setBackgroundResource(R.drawable.joker1);
+                    button8.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button8.setBackgroundResource(R.drawable.icon);
+                    button8.setBackgroundResource(R.drawable.Hexagon);
                 }
                flip(ButtonNumber);
             }
@@ -452,15 +453,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=9;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button9.setBackgroundResource(R.drawable.mark);
+                    button9.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button9.setBackgroundResource(R.drawable.b);
+                    button9.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button9.setBackgroundResource(R.drawable.c);
+                    button9.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button9.setBackgroundResource(R.drawable.joker1);
+                    button9.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button9.setBackgroundResource(R.drawable.icon);
+                    button9.setBackgroundResource(R.drawable.Hexagon);
                 }
                 flip(ButtonNumber);
             }
@@ -475,15 +476,15 @@ public class game extends AppCompatActivity {
                 int ButtonNumber=10;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
-                    button10.setBackgroundResource(R.drawable.mark);
+                    button10.setBackgroundResource(R.drawable.pentagon);
                 }else if(setup[a][b] == 2){
-                    button10.setBackgroundResource(R.drawable.b);
+                    button10.setBackgroundResource(R.drawable.BlueCircle);
                 }else if(setup[a][b] == 3){
-                    button10.setBackgroundResource(R.drawable.c);
+                    button10.setBackgroundResource(R.drawable.blueTriangle);
                 }else if(setup[a][b] == 4){
-                    button10.setBackgroundResource(R.drawable.joker1);
+                    button10.setBackgroundResource(R.drawable.PurpleSquare);
                 }else{
-                    button10.setBackgroundResource(R.drawable.icon);
+                    button10.setBackgroundResource(R.drawable.Hexagon);
                 }
                 flip(ButtonNumber);
             }
