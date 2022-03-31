@@ -294,6 +294,7 @@ public class game extends AppCompatActivity {
     void remove(){
         compare[0]=0;
         compare[1]=0;
+        score();
         if(ReturnedButton1==1){
             ImageButton button = (ImageButton) findViewById(R.id.Button1);
             button.setVisibility(View.GONE);
@@ -538,12 +539,21 @@ public class game extends AppCompatActivity {
 
     }
     //Function that increases cardFlip by 1, if cardFlip is at two should flip both cards down.
+
+
     void flip(int count){
         cardFlip++;
         if(cardFlip == 1){
             storeCount[0] = count;
+
         }else{
             storeCount[1] = count;
+
+        }
+        if(storeCount[0]==storeCount[1]){
+            cardFlip=0;
+            ReturnedButton1 = storeCount[0];
+            (new Handler()).postDelayed(this::flipDown, 1750);
         }
         if(cardFlip==2){
             ReturnedButton1 = storeCount[0];
@@ -576,7 +586,13 @@ public class game extends AppCompatActivity {
         });
 
 
-        int[][] setup={{1, 2, 3, 4, 5},{6,7,8,9,10},{11,12,13,14,15},{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15}};
+        int[][] setup=
+                {{1, 2, 3, 4, 5},
+                 {6, 7, 8, 9, 10},
+                 {11 , 12, 13, 14, 15},
+                 {1 , 2, 3, 4, 5},
+                 {6 ,7 ,8 ,9 ,10},
+                 {11 ,12 ,13 ,14 ,15}};
 
         for(int i=0;i<setup.length;i++){
             for(int j=0;j< setup[i].length;j++){
@@ -1025,8 +1041,8 @@ public class game extends AppCompatActivity {
         button11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=1;
-                int b=5;
+                int a=2;
+                int b=0;
                 int ButtonNumber=11;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1067,8 +1083,8 @@ public class game extends AppCompatActivity {
         button12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=1;
-                int b=5;
+                int a=2;
+                int b=1;
                 int ButtonNumber=12;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1111,7 +1127,7 @@ public class game extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int a=2;
-                int b=0;
+                int b=2;
                 int ButtonNumber=13;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1153,7 +1169,7 @@ public class game extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int a=2;
-                int b=1;
+                int b=3;
                 int ButtonNumber=14;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1195,7 +1211,7 @@ public class game extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int a=2;
-                int b=2;
+                int b=4;
                 int ButtonNumber=15;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1236,8 +1252,8 @@ public class game extends AppCompatActivity {
         button16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=2;
-                int b=3;
+                int a=3;
+                int b=0;
                 int ButtonNumber=16;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1278,8 +1294,8 @@ public class game extends AppCompatActivity {
         button17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=2;
-                int b=4;
+                int a=3;
+                int b=1;
                 int ButtonNumber=17;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1321,8 +1337,8 @@ public class game extends AppCompatActivity {
         button18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=2;
-                int b=5;
+                int a=3;
+                int b=2;
                 int ButtonNumber=18;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1364,7 +1380,7 @@ public class game extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int a=3;
-                int b=0;
+                int b=3;
                 int ButtonNumber=19;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1406,7 +1422,7 @@ public class game extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int a=3;
-                int b=1;
+                int b=4;
                 int ButtonNumber=20;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1447,8 +1463,8 @@ public class game extends AppCompatActivity {
         button21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=3;
-                int b=2;
+                int a=4;
+                int b=0;
                 int ButtonNumber=21;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1489,8 +1505,8 @@ public class game extends AppCompatActivity {
         button22.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=3;
-                int b=3;
+                int a=4;
+                int b=1;
                 int ButtonNumber=22;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1531,8 +1547,8 @@ public class game extends AppCompatActivity {
         button23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=3;
-                int b=4;
+                int a=4;
+                int b=2;
                 int ButtonNumber=23;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1573,8 +1589,8 @@ public class game extends AppCompatActivity {
         button24.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=3;
-                int b=5;
+                int a=4;
+                int b=3;
                 int ButtonNumber=24;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1616,7 +1632,7 @@ public class game extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int a=4;
-                int b=0;
+                int b=4;
                 int ButtonNumber=25;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1657,8 +1673,8 @@ public class game extends AppCompatActivity {
         button26.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=4;
-                int b=1;
+                int a=5;
+                int b=0;
                 int ButtonNumber=26;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1699,8 +1715,8 @@ public class game extends AppCompatActivity {
         button27.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=4;
-                int b=2;
+                int a=5;
+                int b=1;
                 int ButtonNumber=27;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1741,8 +1757,8 @@ public class game extends AppCompatActivity {
         button28.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=4;
-                int b=3;
+                int a=5;
+                int b=2;
                 int ButtonNumber=28;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1783,8 +1799,8 @@ public class game extends AppCompatActivity {
         button29.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=4;
-                int b=4;
+                int a=5;
+                int b=3;
                 int ButtonNumber=29;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
@@ -1825,8 +1841,8 @@ public class game extends AppCompatActivity {
         button30.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int a=4;
-                int b=5;
+                int a=5;
+                int b=4;
                 int ButtonNumber=30;
                 makeCompare(a,b,setup);
                 if(setup[a][b] == 1){
