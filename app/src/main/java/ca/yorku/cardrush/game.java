@@ -169,81 +169,126 @@ public class game extends AppCompatActivity {
            button2.setBackgroundResource(R.drawable.unknown);
        }
         if(ReturnedButton2 == 2){
-            ImageButton button = (ImageButton) findViewById(R.id.Button2);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 3){
-            ImageButton button = (ImageButton) findViewById(R.id.Button3);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button3);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 4){
-            ImageButton button = (ImageButton) findViewById(R.id.Button4);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button4);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 5){
-            ImageButton button = (ImageButton) findViewById(R.id.Button5);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button5);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 6){
-            ImageButton button = (ImageButton) findViewById(R.id.Button6);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button6);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 7){
-            ImageButton button = (ImageButton) findViewById(R.id.Button7);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button7);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 8){
-            ImageButton button = (ImageButton) findViewById(R.id.Button8);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button8);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 9){
-            ImageButton button = (ImageButton) findViewById(R.id.Button9);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button9);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 10){
-            ImageButton button = (ImageButton) findViewById(R.id.Button10);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button10);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 11) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button11);
             button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 12){
-            ImageButton button = (ImageButton) findViewById(R.id.Button12);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button12);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 13){
-            ImageButton button = (ImageButton) findViewById(R.id.Button13);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button13);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 14){
-            ImageButton button = (ImageButton) findViewById(R.id.Button14);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button14);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 15){
-            ImageButton button = (ImageButton) findViewById(R.id.Button15);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button15);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 16){
-            ImageButton button = (ImageButton) findViewById(R.id.Button16);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button16);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 17){
-            ImageButton button = (ImageButton) findViewById(R.id.Button17);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button17);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 18){
-            ImageButton button = (ImageButton) findViewById(R.id.Button18);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button18);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 19){
-            ImageButton button = (ImageButton) findViewById(R.id.Button19);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button19);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
         if(ReturnedButton2 == 20){
-            ImageButton button = (ImageButton) findViewById(R.id.Button20);
-            button.setBackgroundResource(R.drawable.unknown);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button20);
+            button2.setBackgroundResource(R.drawable.unknown);
         }
+        if(ReturnedButton2 == 20){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button20);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 21) {
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button21);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 22){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button22);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 23){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button23);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 24){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button24);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 25){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button25);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 26){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button26);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 27){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button27);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 28){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button28);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 29){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button29);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+        if(ReturnedButton2 == 30){
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button30);
+            button2.setBackgroundResource(R.drawable.unknown);
+        }
+
 
     }
     void remove(){
@@ -504,12 +549,12 @@ public class game extends AppCompatActivity {
             ReturnedButton1 = storeCount[0];
             ReturnedButton2=  storeCount[1];
             if(compare[0]==compare[1]){
-                (new Handler()).postDelayed(this:: remove,2000);
+                (new Handler()).postDelayed(this:: remove,1750);
                 score();
             }else if (compare[0]!=compare[1]){
                 ReturnedButton1 = storeCount[0];
                 ReturnedButton2=storeCount[1];
-                (new Handler()).postDelayed(this::flipDown, 2000);
+                (new Handler()).postDelayed(this::flipDown, 1750);
             }
             cardFlip=0;
         }
