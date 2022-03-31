@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class game extends AppCompatActivity {
+public abstract class game extends AppCompatActivity {
     private Button button;
     //Variable to count cardFlips
     int cardFlip=0;
@@ -19,6 +19,24 @@ public class game extends AppCompatActivity {
     int score=0;
     int ReturnedButton1=0;
     int ReturnedButton2=0;
+    int gameRunning=90;
+
+    void subtractTime(){
+        gameRunning--;
+    }
+    void wrongMatch(){
+        gameRunning-=5;
+    }
+
+    void countdown(){
+        while(gameRunning>0){
+            (new Handler()).postDelayed(this::subtractTime, 1000);
+        }
+        if(gameRunning <=0 ){
+            this.finishAffinity();
+        }
+    }
+
 
 
     void makeCompare(int a, int b, int[][] setup){
@@ -40,10 +58,12 @@ public class game extends AppCompatActivity {
         }
     }
 
+
     //Function to reset pictures back to default image
     void flipDown(){
         compare[0]=0;
         compare[1]=0;
+        wrongMatch();
         if(ReturnedButton1 == 1){
             ImageButton button = (ImageButton) findViewById(R.id.Button1);
             button.setBackgroundResource(R.drawable.unknown);
@@ -574,7 +594,7 @@ public class game extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
-
+        countdown();
         button = (Button) findViewById(R.id.button7);
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -582,6 +602,7 @@ public class game extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(game.this, endGame.class);
                 startActivity(intent);
+
             }
         });
 
