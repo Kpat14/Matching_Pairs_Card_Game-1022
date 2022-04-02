@@ -7,267 +7,186 @@
     tools:context=".game">
 
     <ImageButton
-        android:id="@+id/Button3"
+        android:id="@+id/Button12"
         android:layout_width="67dp"
         android:layout_height="78dp"
         android:background="@drawable/joker1"
         android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintHorizontal_bias="0.991"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/Button19"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603"/>
+        app:layout_constraintVertical_bias="0.418" />
 
     <ImageButton
         android:id="@+id/Button7"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.362" />
+        app:layout_constraintVertical_bias="0.418" />
 
     <ImageButton
-        android:id="@+id/Button12"
+        android:id="@+id/Button9"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.991"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.362"/>
-
-    <ImageButton
-        android:id="@+id/Button2"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.212"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243"
-        android:background="@drawable/joker1"
-        />
-
-    <ImageButton
-        android:id="@+id/Button5"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243" />
-
-    <ImageButton
-        android:id="@+id/Button30"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.991"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722"/>
-
-    <ImageButton
-        android:id="@+id/Button4"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243"
-        android:background="@drawable/joker1"/>
-
-    <ImageButton
-        android:id="@+id/Button21"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603"/>
-
-    <ImageButton
-        android:id="@+id/Button28"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722"/>
-
-    <ImageButton
-        android:id="@+id/Button25"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722"/>
-
-    <ImageButton
-        android:id="@+id/Button20"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.212"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603"/>
-
-    <ImageButton
-        android:id="@+id/Button29"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722"/>
-
-    <ImageButton
-        android:id="@+id/Button8"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.212"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.362" />
-
-    <ImageButton
-        android:id="@+id/Button18"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.991"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"/>
-
-    <ImageButton
-        android:id="@+id/Button1"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243"
-        android:background="@drawable/joker1"
-        />
+        app:layout_constraintVertical_bias="0.418" />
 
     <ImageButton
         android:id="@+id/Button10"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.362"/>
-
-    <ImageButton
-        android:id="@+id/Button26"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.212"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722"/>
+        app:layout_constraintVertical_bias="0.418" />
 
     <ImageButton
         android:id="@+id/Button11"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.796"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.362"/>
+        app:layout_constraintVertical_bias="0.418" />
 
     <ImageButton
-        android:id="@+id/Button24"
+        android:id="@+id/Button8"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <ImageButton
+        android:id="@+id/Button30"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.991"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603"/>
+        app:layout_constraintVertical_bias="0.897" />
+
+    <ImageButton
+        android:id="@+id/Button25"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <ImageButton
+        android:id="@+id/Button28"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <ImageButton
+        android:id="@+id/Button26"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <ImageButton
+        android:id="@+id/Button29"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <ImageButton
+        android:id="@+id/Button27"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <ImageButton
+        android:id="@+id/Button18"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
 
     <ImageButton
         android:id="@+id/Button13"
@@ -275,51 +194,139 @@
         android:layout_height="78dp"
         android:background="@drawable/joker1"
         android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482" />
+        app:layout_constraintVertical_bias="0.581" />
 
     <ImageButton
-        android:id="@+id/Button6"
+        android:id="@+id/Button16"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.991"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243" />
-
-    <ImageButton
-        android:id="@+id/Button17"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
         android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"/>
-
-    <ImageButton
-        android:id="@+id/Button22"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603"/>
+        app:layout_constraintVertical_bias="0.581" />
+
+    <ImageButton
+        android:id="@+id/Button14"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <ImageButton
+        android:id="@+id/Button15"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <ImageButton
+        android:id="@+id/Button17"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <ImageButton
+        android:id="@+id/Button24"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <ImageButton
+        android:id="@+id/Button19"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <ImageButton
+        android:id="@+id/Button20"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <ImageButton
+        android:id="@+id/Button21"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <ImageButton
+        android:id="@+id/Button22"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
 
     <ImageButton
         android:id="@+id/Button23"
@@ -327,77 +334,98 @@
         android:layout_height="78dp"
         android:background="@drawable/joker1"
         android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.796"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603" />
+        app:layout_constraintVertical_bias="0.742" />
 
     <ImageButton
-        android:id="@+id/Button27"
+        android:id="@+id/Button6"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <ImageButton
+        android:id="@+id/Button3"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722"/>
+        app:layout_constraintVertical_bias="0.258"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/Button9"
+        android:id="@+id/Button2"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.362"/>
-
-    <ImageButton
-        android:id="@+id/Button14"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
         android:scaleType="fitXY"
-        android:background="@drawable/joker1"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.212"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"/>
+        app:layout_constraintVertical_bias="0.258" />
 
     <ImageButton
-        android:id="@+id/Button16"
+        android:id="@+id/Button1"
         android:layout_width="67dp"
         android:layout_height="78dp"
-        android:scaleType="fitXY"
         android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <ImageButton
+        android:id="@+id/Button5"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <ImageButton
+        android:id="@+id/Button4"
+        android:layout_width="67dp"
+        android:layout_height="78dp"
+        android:background="@drawable/joker1"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"/>
-
-    <ImageButton
-        android:id="@+id/Button15"
-        android:layout_width="67dp"
-        android:layout_height="78dp"
-        android:scaleType="fitXY"
-        android:background="@drawable/joker1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483"/>
+        app:layout_constraintVertical_bias="0.258" />
 
     <TextView
         android:id="@+id/countdown"
@@ -426,18 +454,6 @@
         app:layout_constraintStart_toEndOf="@+id/countdown"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.607" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="376dp"
-        android:layout_height="120dp"
-        android:gravity="center"
-        android:text="Describable text: ex) Great!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Button27" />
 
     <Button
         android:id="@+id/button7"

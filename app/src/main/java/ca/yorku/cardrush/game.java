@@ -39,6 +39,29 @@ public class game extends AppCompatActivity {
     int ReturnedButton2 = 0;
 
 
+    int[][] setup =
+            {{1, 2, 3, 4, 5},
+                    {6, 7, 8, 9, 10},
+                    {11, 12, 13, 14, 15},
+                    {1, 2, 3, 4, 5},
+                    {6, 7, 8, 9, 10},
+                    {11, 12, 13, 14, 15}};
+
+
+
+
+    void setupGameArray(){
+        for (int i = 0; i < setup.length; i++) {
+            for (int j = 0; j < setup[i].length; j++) {
+                int a1 = (int) (Math.random() * setup.length);
+                int b1 = (int) (Math.random() * setup[i].length);
+                int hold = setup[i][j];
+                setup[i][j] = setup[a1][b1];
+                setup[a1][b1] = hold;
+            }
+        }
+    }
+
     void makeCompare(int a, int b, int[][] setup) {
         count++;
         if (count == 1) {
@@ -57,6 +80,79 @@ public class game extends AppCompatActivity {
             System.out.println("Set complete. Well Done!!!!!!!");
         }
     }
+
+   public void makeVisible(){
+        ImageButton button1 = (ImageButton) findViewById(R.id.Button1);
+        button1.setVisibility(View.VISIBLE);
+        ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
+        button2.setVisibility(View.VISIBLE);
+        ImageButton button3 = (ImageButton) findViewById(R.id.Button3);
+        button3.setVisibility(View.VISIBLE);
+        ImageButton button4 = (ImageButton) findViewById(R.id.Button4);
+        button4.setVisibility(View.VISIBLE);
+        ImageButton button5 = (ImageButton) findViewById(R.id.Button5);
+        button5.setVisibility(View.VISIBLE);
+        ImageButton button6 = (ImageButton) findViewById(R.id.Button6);
+        button6.setVisibility(View.VISIBLE);
+        ImageButton button7 = (ImageButton) findViewById(R.id.Button7);
+        button7.setVisibility(View.VISIBLE);
+        ImageButton button8 = (ImageButton) findViewById(R.id.Button8);
+        button8.setVisibility(View.VISIBLE);
+       ImageButton button9 = (ImageButton) findViewById(R.id.Button9);
+       button9.setVisibility(View.VISIBLE);
+       ImageButton button10 = (ImageButton) findViewById(R.id.Button10);
+       button10.setVisibility(View.VISIBLE);
+       ImageButton button11 = (ImageButton) findViewById(R.id.Button11);
+       button11.setVisibility(View.VISIBLE);
+       ImageButton button12 = (ImageButton) findViewById(R.id.Button12);
+       button12.setVisibility(View.VISIBLE);
+       ImageButton button13 = (ImageButton) findViewById(R.id.Button13);
+       button13.setVisibility(View.VISIBLE);
+       ImageButton button14 = (ImageButton) findViewById(R.id.Button14);
+       button14.setVisibility(View.VISIBLE);
+       ImageButton button15 = (ImageButton) findViewById(R.id.Button15);
+       button15.setVisibility(View.VISIBLE);
+       ImageButton button16 = (ImageButton) findViewById(R.id.Button16);
+       button16.setVisibility(View.VISIBLE);
+       ImageButton button17 = (ImageButton) findViewById(R.id.Button17);
+       button17.setVisibility(View.VISIBLE);
+       ImageButton button18 = (ImageButton) findViewById(R.id.Button18);
+       button18.setVisibility(View.VISIBLE);
+       ImageButton button19 = (ImageButton) findViewById(R.id.Button19);
+       button19.setVisibility(View.VISIBLE);
+       ImageButton button20 = (ImageButton) findViewById(R.id.Button20);
+       button20.setVisibility(View.VISIBLE);
+       ImageButton button21 = (ImageButton) findViewById(R.id.Button21);
+       button21.setVisibility(View.VISIBLE);
+       ImageButton button22 = (ImageButton) findViewById(R.id.Button22);
+       button22.setVisibility(View.VISIBLE);
+       ImageButton button23 = (ImageButton) findViewById(R.id.Button23);
+       button23.setVisibility(View.VISIBLE);
+       ImageButton button24 = (ImageButton) findViewById(R.id.Button24);
+       button24.setVisibility(View.VISIBLE);
+       ImageButton button25 = (ImageButton) findViewById(R.id.Button25);
+       button25.setVisibility(View.VISIBLE);
+       ImageButton button26 = (ImageButton) findViewById(R.id.Button26);
+       button26.setVisibility(View.VISIBLE);
+       ImageButton button27 = (ImageButton) findViewById(R.id.Button27);
+       button27.setVisibility(View.VISIBLE);
+       ImageButton button28 = (ImageButton) findViewById(R.id.Button28);
+       button28.setVisibility(View.VISIBLE);
+       ImageButton button29 = (ImageButton) findViewById(R.id.Button29);
+       button29.setVisibility(View.VISIBLE);
+       ImageButton button30 = (ImageButton) findViewById(R.id.Button30);
+       button30.setVisibility(View.VISIBLE);
+    }
+
+
+
+
+
+
+
+
+
+
 
     //Function to reset pictures back to default image
     void flipDown() {
@@ -636,20 +732,20 @@ public class game extends AppCompatActivity {
         if (storeCount[0] == storeCount[1]) {
             cardFlip = 0;
             ReturnedButton1 = storeCount[0];
-            (new Handler()).postDelayed(this::flipDown, 1750);
+            (new Handler()).postDelayed(this::flipDown, 500);
         }
         if (cardFlip == 2) {
             ReturnedButton1 = storeCount[0];
             ReturnedButton2 = storeCount[1];
             if (compare[0] == compare[1]) {
-                (new Handler()).postDelayed(this::remove, 1750);
+                (new Handler()).postDelayed(this::remove, 500);
                 addTime_matched = true;
                 score();
             } else if (compare[0] != compare[1]) {
                 ReturnedButton1 = storeCount[0];
                 ReturnedButton2 = storeCount[1];
                 addTime_matched = false;
-                (new Handler()).postDelayed(this::flipDown, 1750);
+                (new Handler()).postDelayed(this::flipDown, 500);
             }
             cardFlip = 0;
             reset();
@@ -696,28 +792,6 @@ public class game extends AppCompatActivity {
 
 
 
-
-
-
-
-
-        int[][] setup =
-                {{1, 2, 3, 4, 5},
-                        {6, 7, 8, 9, 10},
-                        {11, 12, 13, 14, 15},
-                        {1, 2, 3, 4, 5},
-                        {6, 7, 8, 9, 10},
-                        {11, 12, 13, 14, 15}};
-
-        for (int i = 0; i < setup.length; i++) {
-            for (int j = 0; j < setup[i].length; j++) {
-                int a1 = (int) (Math.random() * setup.length);
-                int b1 = (int) (Math.random() * setup[i].length);
-                int hold = setup[i][j];
-                setup[i][j] = setup[a1][b1];
-                setup[a1][b1] = hold;
-            }
-        }
 
 
         // SETTING UP THE BUTTON S
@@ -1997,6 +2071,8 @@ public class game extends AppCompatActivity {
     }
 
     private void startTimer() {
+        makeVisible();
+        setupGameArray();
         mcountdownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
