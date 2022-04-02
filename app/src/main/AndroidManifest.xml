@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CardRush">
         <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
             android:name=".leaderboard"
             android:exported="false" />
         <activity
