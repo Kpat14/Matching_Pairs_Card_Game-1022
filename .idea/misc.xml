@@ -11,7 +11,7 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15260416666666668" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.15260416666666668" />
         <entry key="app/src/main/res/layout/activity_end_game.xml" value="0.16614583333333333" />
-        <entry key="app/src/main/res/layout/activity_game.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_game.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_instructions.xml" value="0.2148997134670487" />
         <entry key="app/src/main/res/layout/activity_leaderboard.xml" value="0.16614583333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.12" />

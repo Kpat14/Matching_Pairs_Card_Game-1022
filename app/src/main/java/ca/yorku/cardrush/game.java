@@ -4,13 +4,28 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
+
+import java.util.Locale;
 
 public class game extends AppCompatActivity {
     private Button button;
+    private Button button2;
+    private static long timer_in_millis = 120000;
+
+    private TextView countdown;
+    private CountDownTimer mcountdownTimer;
+
+    private boolean running;
+
+
+    private long mTimeLeftInMillis = timer_in_millis;
+
     //Variable to count cardFlips
     int cardFlip = 0;
     int[] compare = new int[2];
@@ -577,7 +592,20 @@ public class game extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
 
+        countdown = findViewById(R.id.countdown);
+
+
         button = (Button) findViewById(R.id.button7);
+
+
+        button2 = (Button) findViewById(R.id.start);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startTimer();
+            }
+        });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -586,6 +614,21 @@ public class game extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         int[][] setup =
@@ -1882,4 +1925,40 @@ public class game extends AppCompatActivity {
             }
         });
     }
+
+    private void startTimer() {
+        mcountdownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                mTimeLeftInMillis = millisUntilFinished;
+                updateCountdownText();
+            }
+
+            @Override
+            public void onFinish() {
+                running = false;
+                Intent intent = new Intent(game.this, endGame.class);
+                startActivity(intent);
+
+            }
+        }.start();
+
+        running = true;
+
+
+    }
+
+    private void updateCountdownText() {
+        int minutes = (int) (mTimeLeftInMillis / 1000) / 60;
+        int seconds = (int) (mTimeLeftInMillis / 1000) % 60;
+
+        String timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
+
+        countdown.setText(timeLeftFormatted);
+    }
+
+
+
+
+
 }
