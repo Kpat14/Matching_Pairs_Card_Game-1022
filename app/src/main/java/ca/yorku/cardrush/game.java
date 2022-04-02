@@ -23,6 +23,10 @@ public class game extends AppCompatActivity {
 
     private boolean running;
 
+    private boolean addTime_matched = false;
+    private boolean removeTime_notmatched = false;
+    private boolean setcomplete = true;
+
 
     private long mTimeLeftInMillis = timer_in_millis;
 
@@ -62,26 +66,32 @@ public class game extends AppCompatActivity {
         if (ReturnedButton1 == 1) {
             ImageButton button = (ImageButton) findViewById(R.id.Button1);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 2) {
             ImageButton button = (ImageButton) findViewById(R.id.Button2);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 3) {
             ImageButton button = (ImageButton) findViewById(R.id.Button3);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 4) {
             ImageButton button = (ImageButton) findViewById(R.id.Button4);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 5) {
             ImageButton button = (ImageButton) findViewById(R.id.Button5);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 6) {
             ImageButton button = (ImageButton) findViewById(R.id.Button6);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 7) {
             ImageButton button = (ImageButton) findViewById(R.id.Button7);
@@ -94,146 +104,182 @@ public class game extends AppCompatActivity {
         if (ReturnedButton1 == 9) {
             ImageButton button = (ImageButton) findViewById(R.id.Button9);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 10) {
             ImageButton button = (ImageButton) findViewById(R.id.Button10);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 11) {
             ImageButton button = (ImageButton) findViewById(R.id.Button11);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 12) {
             ImageButton button = (ImageButton) findViewById(R.id.Button12);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 13) {
             ImageButton button = (ImageButton) findViewById(R.id.Button13);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 14) {
             ImageButton button = (ImageButton) findViewById(R.id.Button14);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 15) {
             ImageButton button = (ImageButton) findViewById(R.id.Button15);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 16) {
             ImageButton button = (ImageButton) findViewById(R.id.Button16);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 17) {
             ImageButton button = (ImageButton) findViewById(R.id.Button17);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 18) {
             ImageButton button = (ImageButton) findViewById(R.id.Button18);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 19) {
             ImageButton button = (ImageButton) findViewById(R.id.Button19);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 20) {
             ImageButton button = (ImageButton) findViewById(R.id.Button20);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 21) {
             ImageButton button = (ImageButton) findViewById(R.id.Button21);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 22) {
             ImageButton button = (ImageButton) findViewById(R.id.Button22);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 23) {
             ImageButton button = (ImageButton) findViewById(R.id.Button23);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 24) {
             ImageButton button = (ImageButton) findViewById(R.id.Button24);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 25) {
             ImageButton button = (ImageButton) findViewById(R.id.Button25);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 26) {
             ImageButton button = (ImageButton) findViewById(R.id.Button26);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 27) {
             ImageButton button = (ImageButton) findViewById(R.id.Button27);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 28) {
             ImageButton button = (ImageButton) findViewById(R.id.Button28);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 29) {
             ImageButton button = (ImageButton) findViewById(R.id.Button29);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton1 == 30) {
             ImageButton button = (ImageButton) findViewById(R.id.Button30);
             button.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 1) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button1);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 2) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 3) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button3);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 4) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button4);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 5) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button5);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 6) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button6);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 7) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button7);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 8) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button8);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 9) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button9);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 10) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button10);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 11) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button11);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 12) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button12);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 13) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button13);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 14) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button14);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 15) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button15);
@@ -242,66 +288,82 @@ public class game extends AppCompatActivity {
         if (ReturnedButton2 == 16) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button16);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 17) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button17);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 18) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button18);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 19) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button19);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 20) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button20);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 20) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button20);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 21) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button21);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 22) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button22);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 23) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button23);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 24) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button24);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 25) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button25);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 26) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button26);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 27) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button27);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 28) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button28);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 29) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button29);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
         if (ReturnedButton2 == 30) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button30);
             button2.setBackgroundResource(R.drawable.joker1);
+            removeTime_notmatched = true;
         }
 
 
@@ -314,34 +376,42 @@ public class game extends AppCompatActivity {
         if (ReturnedButton1 == 1) {
             ImageButton button = (ImageButton) findViewById(R.id.Button1);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 2) {
             ImageButton button = (ImageButton) findViewById(R.id.Button2);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 3) {
             ImageButton button = (ImageButton) findViewById(R.id.Button3);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 4) {
             ImageButton button = (ImageButton) findViewById(R.id.Button4);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 5) {
             ImageButton button = (ImageButton) findViewById(R.id.Button5);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 6) {
             ImageButton button = (ImageButton) findViewById(R.id.Button6);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 7) {
             ImageButton button = (ImageButton) findViewById(R.id.Button7);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 8) {
             ImageButton button = (ImageButton) findViewById(R.id.Button8);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 9) {
             ImageButton button = (ImageButton) findViewById(R.id.Button9);
@@ -358,199 +428,250 @@ public class game extends AppCompatActivity {
         if (ReturnedButton1 == 12) {
             ImageButton button = (ImageButton) findViewById(R.id.Button12);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 13) {
             ImageButton button = (ImageButton) findViewById(R.id.Button13);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 14) {
             ImageButton button = (ImageButton) findViewById(R.id.Button14);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 15) {
             ImageButton button = (ImageButton) findViewById(R.id.Button15);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 16) {
             ImageButton button = (ImageButton) findViewById(R.id.Button16);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 17) {
             ImageButton button = (ImageButton) findViewById(R.id.Button17);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 18) {
             ImageButton button = (ImageButton) findViewById(R.id.Button18);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 19) {
             ImageButton button = (ImageButton) findViewById(R.id.Button19);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 20) {
             ImageButton button = (ImageButton) findViewById(R.id.Button20);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 21) {
             ImageButton button = (ImageButton) findViewById(R.id.Button21);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 22) {
             ImageButton button = (ImageButton) findViewById(R.id.Button22);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 23) {
             ImageButton button = (ImageButton) findViewById(R.id.Button23);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 24) {
             ImageButton button = (ImageButton) findViewById(R.id.Button24);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 25) {
             ImageButton button = (ImageButton) findViewById(R.id.Button25);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 26) {
             ImageButton button = (ImageButton) findViewById(R.id.Button26);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 27) {
             ImageButton button = (ImageButton) findViewById(R.id.Button27);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 28) {
             ImageButton button = (ImageButton) findViewById(R.id.Button28);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 29) {
             ImageButton button = (ImageButton) findViewById(R.id.Button29);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton1 == 30) {
             ImageButton button = (ImageButton) findViewById(R.id.Button30);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
 
         if (ReturnedButton2 == 1) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button1);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 2) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 3) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button3);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 4) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button4);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 5) {
             ImageButton button = (ImageButton) findViewById(R.id.Button5);
             button.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 6) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button6);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 7) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button7);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 8) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button8);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 9) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button9);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 10) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button10);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 11) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button11);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 12) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button12);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 13) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button13);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 14) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button14);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 15) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button15);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 16) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button16);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 17) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button17);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 18) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button18);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 19) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button19);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 20) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button20);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 21) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button21);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 22) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button22);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 23) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button23);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 24) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button24);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 25) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button25);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 26) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button26);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 27) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button27);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
+
         }
         if (ReturnedButton2 == 28) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button28);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
         if (ReturnedButton2 == 29) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button29);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
+
         }
         if (ReturnedButton2 == 30) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button30);
             button2.setVisibility(View.GONE);
+            addTime_matched = true;
         }
 
     }
@@ -1931,6 +2052,13 @@ public class game extends AppCompatActivity {
             @Override
             public void onTick(long millisUntilFinished) {
                 mTimeLeftInMillis = millisUntilFinished;
+
+                if(addTime_matched){
+                    matched();
+                }
+                if(removeTime_notmatched){
+                    notmatched();
+                }
                 updateCountdownText();
             }
 
@@ -1953,8 +2081,27 @@ public class game extends AppCompatActivity {
         int seconds = (int) (mTimeLeftInMillis / 1000) % 60;
 
         String timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
-
         countdown.setText(timeLeftFormatted);
+    }
+
+    private void matched() {
+        mTimeLeftInMillis += 20000;
+        updateCountdownText();
+    }
+
+    private void notmatched(){
+        mTimeLeftInMillis -= 10000;
+        updateCountdownText();
+    }
+
+    private void addTime_setComplete(){
+        mTimeLeftInMillis += 30000;
+        updateCountdownText();
+    }
+
+    private void reset(){
+        addTime_matched = false;
+        removeTime_notmatched = false;
     }
 
 
