@@ -25,7 +25,7 @@ public class game extends AppCompatActivity {
 
     private boolean addTime_matched = false;
     private boolean setcomplete = true;
-
+    int stopDoubleClick =0;
 
     private long mTimeLeftInMillis = timer_in_millis;
 
@@ -190,15 +190,6 @@ public class game extends AppCompatActivity {
        ImageButton button30 = (ImageButton) findViewById(R.id.Button30);
        button30.setVisibility(View.VISIBLE);
     }
-
-
-
-
-
-
-
-
-
 
 
     //Function to reset pictures back to default image
@@ -782,6 +773,67 @@ public class game extends AppCompatActivity {
             (new Handler()).postDelayed(this::flipDown, 500);
         }
         if (cardFlip == 2) {
+            ImageButton button1 = (ImageButton) findViewById(R.id.Button1);
+            button1.setClickable(false);
+            ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
+            button2.setClickable(false);
+            ImageButton button3 = (ImageButton) findViewById(R.id.Button3);
+            button3.setClickable(false);
+            ImageButton button4 = (ImageButton) findViewById(R.id.Button4);
+            button4.setClickable(false);
+            ImageButton button5 = (ImageButton) findViewById(R.id.Button5);
+            button5.setClickable(false);
+            ImageButton button6 = (ImageButton) findViewById(R.id.Button6);
+            button6.setClickable(false);
+            ImageButton button7 = (ImageButton) findViewById(R.id.Button7);
+            button7.setClickable(false);
+            ImageButton button8 = (ImageButton) findViewById(R.id.Button8);
+            button8.setClickable(false);
+            ImageButton button9 = (ImageButton) findViewById(R.id.Button9);
+            button9.setClickable(false);
+            ImageButton button10 = (ImageButton) findViewById(R.id.Button10);
+            button10.setClickable(false);
+            ImageButton button11 = (ImageButton) findViewById(R.id.Button11);
+            button11.setClickable(false);
+            ImageButton button12 = (ImageButton) findViewById(R.id.Button12);
+            button12.setClickable(false);
+            ImageButton button13 = (ImageButton) findViewById(R.id.Button13);
+            button13.setClickable(false);
+            ImageButton button14 = (ImageButton) findViewById(R.id.Button14);
+            button14.setClickable(false);
+            ImageButton button15 = (ImageButton) findViewById(R.id.Button15);
+            button15.setClickable(false);
+            ImageButton button16 = (ImageButton) findViewById(R.id.Button16);
+            button16.setClickable(false);
+            ImageButton button17 = (ImageButton) findViewById(R.id.Button17);
+            button17.setClickable(false);
+            ImageButton button18 = (ImageButton) findViewById(R.id.Button18);
+            button18.setClickable(false);
+            ImageButton button19 = (ImageButton) findViewById(R.id.Button19);
+            button19.setClickable(false);
+            ImageButton button20 = (ImageButton) findViewById(R.id.Button20);
+            button20.setClickable(false);
+            ImageButton button21 = (ImageButton) findViewById(R.id.Button21);
+            button21.setClickable(false);
+            ImageButton button22 = (ImageButton) findViewById(R.id.Button22);
+            button22.setClickable(false);
+            ImageButton button23 = (ImageButton) findViewById(R.id.Button23);
+            button23.setClickable(false);
+            ImageButton button24 = (ImageButton) findViewById(R.id.Button24);
+            button24.setClickable(false);
+            ImageButton button25 = (ImageButton) findViewById(R.id.Button25);
+            button25.setClickable(false);
+            ImageButton button26 = (ImageButton) findViewById(R.id.Button26);
+            button26.setClickable(false);
+            ImageButton button27 = (ImageButton) findViewById(R.id.Button27);
+            button27.setClickable(false);
+            ImageButton button28 = (ImageButton) findViewById(R.id.Button28);
+            button28.setClickable(false);
+            ImageButton button29 = (ImageButton) findViewById(R.id.Button29);
+            button29.setClickable(false);
+            ImageButton button30 = (ImageButton) findViewById(R.id.Button30);
+            button30.setClickable(false);
+
             ReturnedButton1 = storeCount[0];
             ReturnedButton2 = storeCount[1];
             if (compare[0] == compare[1]) {
@@ -789,6 +841,7 @@ public class game extends AppCompatActivity {
                 addTime_matched = true;
                 score();
             } else if (compare[0] != compare[1]) {
+
                 ReturnedButton1 = storeCount[0];
                 ReturnedButton2 = storeCount[1];
                 addTime_matched = false;
@@ -796,6 +849,39 @@ public class game extends AppCompatActivity {
             }
             cardFlip = 0;
             reset();
+            button1.setClickable(true);
+            button2.setClickable(true);
+            button3.setClickable(true);
+            button4.setClickable(true);
+            button5.setClickable(true);
+            button6.setClickable(true);
+            button7.setClickable(true);
+            button8.setClickable(true);
+            button9.setClickable(true);
+            button10.setClickable(true);
+            button11.setClickable(true);
+            button12.setClickable(true);
+            button13.setClickable(true);
+            button14.setClickable(true);
+            button15.setClickable(true);
+            button16.setClickable(true);
+            button17.setClickable(true);
+
+            button18.setClickable(true);
+
+            button19.setClickable(true);
+
+            button20.setClickable(true);
+            button21.setClickable(true);
+            button22.setClickable(true);
+            button23.setClickable(true);
+            button24.setClickable(true);
+            button25.setClickable(true);
+            button26.setClickable(true);
+            button27.setClickable(true);
+            button28.setClickable(true);
+            button29.setClickable(true);
+            button30.setClickable(true);
         }
 
     }
