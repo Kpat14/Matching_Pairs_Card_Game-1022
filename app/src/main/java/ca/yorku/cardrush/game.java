@@ -16,7 +16,7 @@ import java.util.Locale;
 public class game extends AppCompatActivity {
     private Button button;
     private Button button2;
-    private static long timer_in_millis = 120000;
+    private static long timer_in_millis = 180000;
 
     private TextView countdown;
     private CountDownTimer mcountdownTimer;
@@ -34,13 +34,13 @@ public class game extends AppCompatActivity {
     int[] compare = new int[2];
     int[] storeCount = new int[2];
     int count = 0;
-    int score = 0;
+    double score = 0;
     int ReturnedButton1 = 0;
     int ReturnedButton2 = 0;
 
 
     int[][] setup =
-            {{1, 2, 3, 4, 5},
+                    {{1, 2, 3, 4, 5},
                     {6, 7, 8, 9, 10},
                     {11, 12, 13, 14, 15},
                     {1, 2, 3, 4, 5},
@@ -75,10 +75,57 @@ public class game extends AppCompatActivity {
     }
 
     void score() {
-        score++;
+        score = score +0.5;
         if (score%15==0) {
             System.out.println("Set complete. Well Done!!!!!!!");
         }
+        if(score==1){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("1");
+        }else if(score==2){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("2");
+        }else if(score==3){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("3");
+        }else if(score==4){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("4");
+        }else if(score==5){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("5");
+        }else if(score==6){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("6");
+        }else if(score==7){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("7");
+        }else if(score==8){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("8");
+        }else if(score==9){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("9");
+        }else if(score==10){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("10");
+        }else if(score==11){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("11");
+        }else if(score==12){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("12");
+        }else if(score==13){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("13");
+        }else if(score==14){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("14");
+        }else if(score==15){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("15");
+        }
+
     }
 
    public void makeVisible(){
