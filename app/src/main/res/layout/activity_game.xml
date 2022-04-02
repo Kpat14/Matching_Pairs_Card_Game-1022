@@ -418,7 +418,7 @@
         android:layout_width="180dp"
         android:layout_height="75dp"
         android:gravity="center"
-        android:text="Points:"
+        android:text="0"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toTopOf="@+id/Button6"
         app:layout_constraintEnd_toEndOf="parent"
