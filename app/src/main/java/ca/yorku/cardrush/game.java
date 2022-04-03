@@ -124,10 +124,167 @@ public class game extends AppCompatActivity {
         }else if(score==15){
             TextView tv1 = (TextView)findViewById(R.id.textView4);
             tv1.setText("15");
+            setupGameArray();
+            setBack();
+        }else if(score==16){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("16");
+        } else if(score==17){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("17");
+        }else if(score==18){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("18");
+        }else if(score==19){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("19");
+        }else if(score==20){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("20");
+        }else if(score==21){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("21");
+        }else if(score==21){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("21");
+        }else if(score==22){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("22");
+        }else if(score==23){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("23");
+        }else if(score==24){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("24");
+        }else if(score==25){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("25");
+        }else if(score==26){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("26");
+        }else if(score==27){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("27");
+        }else if(score==28){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("28");
+        }else if(score==29){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("29");
+        }else if(score==30){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("30");
+            setupGameArray();
+            setBack();
+        }else if(score==31){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("31");
+        }else if(score==32){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("32");
+        }else if(score==33){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("33");
+        }else if(score==34){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("34");
+        }else if(score==35){
+            TextView tv1 = (TextView)findViewById(R.id.textView4);
+            tv1.setText("35");
         }
-
     }
-
+    public void setBack(){
+        ImageButton button1 = (ImageButton) findViewById(R.id.Button1);
+        button1.setVisibility(View.VISIBLE);
+        button1.setBackgroundResource(R.drawable.joker1);
+        ImageButton button2 = (ImageButton) findViewById(R.id.Button2);
+        button2.setVisibility(View.VISIBLE);
+        button2.setBackgroundResource(R.drawable.joker1);
+        ImageButton button3 = (ImageButton) findViewById(R.id.Button3);
+        button3.setVisibility(View.VISIBLE);
+        button3.setBackgroundResource(R.drawable.joker1);
+        ImageButton button4 = (ImageButton) findViewById(R.id.Button4);
+        button4.setVisibility(View.VISIBLE);
+        button4.setBackgroundResource(R.drawable.joker1);
+        ImageButton button5 = (ImageButton) findViewById(R.id.Button5);
+        button5.setVisibility(View.VISIBLE);
+        button5.setBackgroundResource(R.drawable.joker1);
+        ImageButton button6 = (ImageButton) findViewById(R.id.Button6);
+        button6.setVisibility(View.VISIBLE);
+        button6.setBackgroundResource(R.drawable.joker1);
+        ImageButton button7 = (ImageButton) findViewById(R.id.Button7);
+        button7.setVisibility(View.VISIBLE);
+        button7.setBackgroundResource(R.drawable.joker1);
+        ImageButton button8 = (ImageButton) findViewById(R.id.Button8);
+        button8.setVisibility(View.VISIBLE);
+        button8.setBackgroundResource(R.drawable.joker1);
+        ImageButton button9 = (ImageButton) findViewById(R.id.Button9);
+        button9.setVisibility(View.VISIBLE);
+        button9.setBackgroundResource(R.drawable.joker1);
+        ImageButton button10 = (ImageButton) findViewById(R.id.Button10);
+        button10.setVisibility(View.VISIBLE);
+        button10.setBackgroundResource(R.drawable.joker1);
+        ImageButton button11 = (ImageButton) findViewById(R.id.Button11);
+        button11.setVisibility(View.VISIBLE);
+        button11.setBackgroundResource(R.drawable.joker1);
+        ImageButton button12 = (ImageButton) findViewById(R.id.Button12);
+        button12.setVisibility(View.VISIBLE);
+        button12.setBackgroundResource(R.drawable.joker1);
+        ImageButton button13 = (ImageButton) findViewById(R.id.Button13);
+        button13.setVisibility(View.VISIBLE);
+        button13.setBackgroundResource(R.drawable.joker1);
+        ImageButton button14 = (ImageButton) findViewById(R.id.Button14);
+        button14.setVisibility(View.VISIBLE);
+        button14.setBackgroundResource(R.drawable.joker1);
+        ImageButton button15 = (ImageButton) findViewById(R.id.Button15);
+        button15.setVisibility(View.VISIBLE);
+        button15.setBackgroundResource(R.drawable.joker1);
+        ImageButton button16 = (ImageButton) findViewById(R.id.Button16);
+        button16.setVisibility(View.VISIBLE);
+        button16.setBackgroundResource(R.drawable.joker1);
+        ImageButton button17 = (ImageButton) findViewById(R.id.Button17);
+        button17.setVisibility(View.VISIBLE);
+        button17.setBackgroundResource(R.drawable.joker1);
+        ImageButton button18 = (ImageButton) findViewById(R.id.Button18);
+        button18.setVisibility(View.VISIBLE);
+        button18.setBackgroundResource(R.drawable.joker1);
+        ImageButton button19 = (ImageButton) findViewById(R.id.Button19);
+        button19.setVisibility(View.VISIBLE);
+        button19.setBackgroundResource(R.drawable.joker1);
+        ImageButton button20 = (ImageButton) findViewById(R.id.Button20);
+        button20.setVisibility(View.VISIBLE);
+        button20.setBackgroundResource(R.drawable.joker1);
+        ImageButton button21 = (ImageButton) findViewById(R.id.Button21);
+        button21.setVisibility(View.VISIBLE);
+        button21.setBackgroundResource(R.drawable.joker1);
+        ImageButton button22 = (ImageButton) findViewById(R.id.Button22);
+        button22.setVisibility(View.VISIBLE);
+        button22.setBackgroundResource(R.drawable.joker1);
+        ImageButton button23 = (ImageButton) findViewById(R.id.Button23);
+        button23.setVisibility(View.VISIBLE);
+        button23.setBackgroundResource(R.drawable.joker1);
+        ImageButton button24 = (ImageButton) findViewById(R.id.Button24);
+        button24.setVisibility(View.VISIBLE);
+        button24.setBackgroundResource(R.drawable.joker1);
+        ImageButton button25 = (ImageButton) findViewById(R.id.Button25);
+        button25.setVisibility(View.VISIBLE);
+        button25.setBackgroundResource(R.drawable.joker1);
+        ImageButton button26 = (ImageButton) findViewById(R.id.Button26);
+        button26.setVisibility(View.VISIBLE);
+        button26.setBackgroundResource(R.drawable.joker1);
+        ImageButton button27 = (ImageButton) findViewById(R.id.Button27);
+        button27.setVisibility(View.VISIBLE);
+        button27.setBackgroundResource(R.drawable.joker1);
+        ImageButton button28 = (ImageButton) findViewById(R.id.Button28);
+        button28.setVisibility(View.VISIBLE);
+        button28.setBackgroundResource(R.drawable.joker1);
+        ImageButton button29 = (ImageButton) findViewById(R.id.Button29);
+        button29.setVisibility(View.VISIBLE);
+        button29.setBackgroundResource(R.drawable.joker1);
+        ImageButton button30 = (ImageButton) findViewById(R.id.Button30);
+        button30.setVisibility(View.VISIBLE);
+        button30.setBackgroundResource(R.drawable.joker1);
+    }
    public void makeVisible(){
         ImageButton button1 = (ImageButton) findViewById(R.id.Button1);
         button1.setVisibility(View.VISIBLE);
@@ -750,7 +907,7 @@ public class game extends AppCompatActivity {
         }
         if (ReturnedButton2 == 30) {
             ImageButton button2 = (ImageButton) findViewById(R.id.Button30);
-            button2.setVisibility(View.GONE);
+            button2.setVisibility(View.INVISIBLE);
             addTime_matched = true;
         }
 
@@ -866,11 +1023,8 @@ public class game extends AppCompatActivity {
             button15.setClickable(true);
             button16.setClickable(true);
             button17.setClickable(true);
-
             button18.setClickable(true);
-
             button19.setClickable(true);
-
             button20.setClickable(true);
             button21.setClickable(true);
             button22.setClickable(true);
@@ -2206,6 +2360,7 @@ public class game extends AppCompatActivity {
     private void startTimer() {
         makeVisible();
         setupGameArray();
+
         mcountdownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
@@ -2214,7 +2369,7 @@ public class game extends AppCompatActivity {
                 if(addTime_matched){
                     matched();
                 }
-                updateCountdownText();
+               updateCountdownText();
             }
 
             @Override
@@ -2243,11 +2398,11 @@ public class game extends AppCompatActivity {
 
 
     private void matched() {
-        mTimeLeftInMillis += 15000;
+        mTimeLeftInMillis += 15;
     }
 
     private void addTime_setComplete(){
-        mTimeLeftInMillis += 30000;
+       mTimeLeftInMillis += 30;
         updateCountdownText();
     }
 
