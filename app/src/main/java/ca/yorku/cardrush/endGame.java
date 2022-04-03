@@ -12,6 +12,7 @@ public class endGame extends AppCompatActivity {
     private Button button;
     private Button button2;
     private Button button3;
+    private Button button4;
     Double points = game.getMyString();
     int i = Integer.valueOf(points.intValue());
 
@@ -24,6 +25,7 @@ public class endGame extends AppCompatActivity {
         button = (Button) findViewById(R.id.button12);
         button2 = (Button) findViewById(R.id.button9);
         button3 = (Button) findViewById(R.id.button13);
+        button4 = (Button) findViewById(R.id.button10);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +47,15 @@ public class endGame extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(endGame.this, MainActivity.class);
                 startActivity(intent);
+            }
+        });
+
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+                System.exit(0);
             }
         });
 
