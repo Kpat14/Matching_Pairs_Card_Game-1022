@@ -34,7 +34,7 @@ public class game extends AppCompatActivity {
     int[] compare = new int[2];
     int[] storeCount = new int[2];
     int count = 0;
-    double score = 0;
+    private static double score = 0;
     int ReturnedButton1 = 0;
     int ReturnedButton2 = 0;
 
@@ -47,6 +47,9 @@ public class game extends AppCompatActivity {
                     {6, 7, 8, 9, 10},
                     {11, 12, 13, 14, 15}};
 
+    public static double getMyString() {
+        return score;
+    }
 
 
 
