@@ -434,7 +434,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
         android:gravity="center"
-        android:text="02:00"
+        android:text="03:00"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toTopOf="@+id/Button1"
         app:layout_constraintStart_toStartOf="parent"
